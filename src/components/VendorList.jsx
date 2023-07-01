@@ -11,15 +11,6 @@ import { ClipLoader } from 'react-spinners'
 import { useRouter } from "next/navigation";
 
 
-// async function getData() {
-//     const res = await fetch("http://localhost:3000/api/vendorsList", { cache : 'no-store' });
-
-//     if (!res.ok) {
-//       throw new Error("Failed to fetch data");
-//     }
-
-//     return res.json();
-//   }
 
 const VendorList = () => {
   //   const data = await getData();
