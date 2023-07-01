@@ -20,7 +20,7 @@ const EditVendorForm = ({id,data}) => {
         e.preventDefault();
     
         try {
-          const res = await fetch(`http://localhost:3000/api/vendorsList/${id}`, {
+          const res = await fetch(`https://vendor-app.vercel.app/api/vendorsList/${id}`, {
             method: "PUT",
             headers: {
               "Content-type": "application/json",
