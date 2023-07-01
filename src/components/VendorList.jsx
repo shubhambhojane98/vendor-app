@@ -26,7 +26,7 @@ const VendorList = () => {
   const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
   const { data, mutate ,isLoading } = useSWR(
-    "https://vendor-app-alpha.vercel.app/api/vendorsList",
+    "https://vendor-app-nine.vercel.app/api/vendorsList",
     fetcher
   );
 
