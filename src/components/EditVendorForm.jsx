@@ -8,13 +8,13 @@ const EditVendorForm = ({id,data}) => {
     const router = useRouter()
 
     const [name,setName] = useState(data?.name); 
-    const [bankAccountNo, setBankAccountNo] = useState(data.bankAccountNo) 
-    const [bankName,setBankName] = useState(data.bankName) 
-    const [addressLine1,setAddressLine1] = useState(data.addressLine1) 
-    const [addressLine2,setAddressLine2] = useState(data.addressLine2) 
-    const [city,setCity] = useState(data.city) 
-    const [country,setCountry] = useState(data.country) 
-    const [zipCode,setZipCode] = useState(data.zipCode) 
+    const [bankAccountNo, setBankAccountNo] = useState(data?.bankAccountNo) 
+    const [bankName,setBankName] = useState(data?.bankName) 
+    const [addressLine1,setAddressLine1] = useState(data?.addressLine1) 
+    const [addressLine2,setAddressLine2] = useState(data?.addressLine2) 
+    const [city,setCity] = useState(data?.city) 
+    const [country,setCountry] = useState(data?.country) 
+    const [zipCode,setZipCode] = useState(data?.zipCode) 
 
     const handleSubmit = async (e) => {
         e.preventDefault();
