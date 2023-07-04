@@ -7,7 +7,7 @@ const EditVendorForm = ({id,data}) => {
 
     const router = useRouter()
 
-    const [name,setName] = useState(data.name); 
+    const [name,setName] = useState(data?.name); 
     const [bankAccountNo, setBankAccountNo] = useState(data.bankAccountNo) 
     const [bankName,setBankName] = useState(data.bankName) 
     const [addressLine1,setAddressLine1] = useState(data.addressLine1) 
