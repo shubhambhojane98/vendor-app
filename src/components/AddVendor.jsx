@@ -48,7 +48,7 @@ const AddVendor = () => {
       router.push('/')
       setShowModal(false)
     } catch (error) {
-      console.log(error)
+      console.log("error",error)
     }
   }
 
